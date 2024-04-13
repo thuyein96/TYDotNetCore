@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Data;
 using System.Data.SqlClient;
+using TYDotNetCore.ConsoleApp;
 
 Console.WriteLine("Hello, World!");
 
@@ -11,6 +12,7 @@ F10 = run line by line
 F9 = set breakpoint
 */
 
+/*
 SqlConnectionStringBuilder stringBuilder = new SqlConnectionStringBuilder();
 stringBuilder.DataSource = "THU-YEIN-1996"; //server name
 stringBuilder.InitialCatalog = "DotNetCoreTrainingBatch4"; //database name
@@ -41,5 +43,12 @@ foreach (DataRow dr in dt.Rows)
     Console.WriteLine("Blog Author => " + dr["BlogAuthor"]);
     Console.WriteLine("Blog Content => " + dr["BlogContent"]);
     Console.WriteLine("-------------------------------------");
-}
+} */
+
+AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//adoDotNetExample.Create("title", "author", "content");
+//adoDotNetExample.Read();
+//adoDotNetExample.Update(12, "test title", "test author", "test content");
+//adoDotNetExample.Delete(12);
+adoDotNetExample.Edit(2);
 Console.ReadKey();
