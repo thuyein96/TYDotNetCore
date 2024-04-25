@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TYDotNetCore.ConsoleApp
+namespace TYDotNetCore.ConsoleApp.AdoDotNetExamples
 {
     internal class AdoDotNetExample
     {
@@ -19,7 +19,7 @@ namespace TYDotNetCore.ConsoleApp
         };
 
         // READ ACTION
-        public void Read() 
+        public void Read()
         {
             SqlConnection connection = new SqlConnection(_sqlConnectionStringBuilder.ConnectionString);
             connection.Open();
@@ -54,9 +54,9 @@ namespace TYDotNetCore.ConsoleApp
             string query = "select * from tbl_blog where BlogId = @BlogId";
             SqlCommand cmd = new SqlCommand(query, connection);
             cmd.Parameters.AddWithValue("@BlogId", id);
-            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd); 
-            DataTable dt = new DataTable(); 
-            sqlDataAdapter.Fill(dt); 
+            SqlDataAdapter sqlDataAdapter = new SqlDataAdapter(cmd);
+            DataTable dt = new DataTable();
+            sqlDataAdapter.Fill(dt);
 
             connection.Close();
             Console.WriteLine("Connection close.");
@@ -123,7 +123,7 @@ namespace TYDotNetCore.ConsoleApp
             string message = result > 0 ? "Updating Successful" : "Updating Fail";
             Console.WriteLine(message);
         }
-        
+
         // DELETE ACTION
         public void Delete(int id)
         {

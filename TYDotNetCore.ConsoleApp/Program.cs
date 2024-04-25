@@ -1,7 +1,8 @@
 ﻿// See https://aka.ms/new-console-template for more information
 using System.Data;
 using System.Data.SqlClient;
-using TYDotNetCore.ConsoleApp;
+using TYDotNetCore.ConsoleApp.AdoDotNetExamples;
+using TYDotNetCore.ConsoleApp.DapperDotNetExamples;
 
 Console.WriteLine("Hello, World!");
 
@@ -45,10 +46,13 @@ foreach (DataRow dr in dt.Rows)
     Console.WriteLine("-------------------------------------");
 } */
 
-AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
+//AdoDotNetExample adoDotNetExample = new AdoDotNetExample();
 //adoDotNetExample.Create("title", "author", "content");
 //adoDotNetExample.Read();
 //adoDotNetExample.Update(12, "test title", "test author", "test content");
 //adoDotNetExample.Delete(12);
-adoDotNetExample.Edit(2);
+//adoDotNetExample.Edit(212);
+
+DapperDotNetExample dapperDotNetExample = new DapperDotNetExample();
+dapperDotNetExample.Run();
 Console.ReadKey();
