@@ -8,6 +8,8 @@ using System.Linq;
 using System.Reflection.Metadata;
 using System.Text;
 using System.Threading.Tasks;
+using TYDotNetCore.ConsoleApp.Dtos;
+using TYDotNetCore.ConsoleApp.Services;
 
 namespace TYDotNetCore.ConsoleApp.DapperDotNetExamples
 {

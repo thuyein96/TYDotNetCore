@@ -3,6 +3,7 @@ using System.Data;
 using System.Data.SqlClient;
 using TYDotNetCore.ConsoleApp.AdoDotNetExamples;
 using TYDotNetCore.ConsoleApp.DapperDotNetExamples;
+using TYDotNetCore.ConsoleApp.EFCoreExamples;
 
 Console.WriteLine("Hello, World!");
 
@@ -53,6 +54,10 @@ foreach (DataRow dr in dt.Rows)
 //adoDotNetExample.Delete(12);
 //adoDotNetExample.Edit(212);
 
-DapperDotNetExample dapperDotNetExample = new DapperDotNetExample();
-dapperDotNetExample.Run();
+//DapperDotNetExample dapperDotNetExample = new DapperDotNetExample();
+//dapperDotNetExample.Run();
+
+EFCoreExample eFCoreExample = new EFCoreExample();
+eFCoreExample.Run();
+
 Console.ReadKey();
