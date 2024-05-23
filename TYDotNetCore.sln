@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TYDotNetCore.Shared", "TYDo
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TYDotNetCore.RestApiWithNLayer", "TYDotNetCore.RestApiWithNLayer\TYDotNetCore.RestApiWithNLayer.csproj", "{478046F4-7A8F-4426-84E9-0BA490812982}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TYDotNetCore.ConsoleAppHttpClient", "TYDotNetCore.ConsoleAppHttpClient\TYDotNetCore.ConsoleAppHttpClient.csproj", "{52CF7CA6-9A2F-493F-87CF-D57E6B50B569}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TYDotNetCore.ConsoleAppHttpClient", "TYDotNetCore.ConsoleAppHttpClient\TYDotNetCore.ConsoleAppHttpClient.csproj", "{52CF7CA6-9A2F-493F-87CF-D57E6B50B569}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TYDotNetCore.ConsoleAppHttpClientExample", "TYDotNetCore.ConsoleAppHttpClientExample\TYDotNetCore.ConsoleAppHttpClientExample.csproj", "{7D254D42-D29E-4978-A7F3-69886755B89F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{52CF7CA6-9A2F-493F-87CF-D57E6B50B569}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52CF7CA6-9A2F-493F-87CF-D57E6B50B569}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52CF7CA6-9A2F-493F-87CF-D57E6B50B569}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D254D42-D29E-4978-A7F3-69886755B89F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D254D42-D29E-4978-A7F3-69886755B89F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D254D42-D29E-4978-A7F3-69886755B89F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D254D42-D29E-4978-A7F3-69886755B89F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
