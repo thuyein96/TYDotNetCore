@@ -37,7 +37,6 @@ namespace TYDotNetCore.RestApiWithNLayer.Features.Blog
             var item = _context.Blogs.FirstOrDefault(x => x.BlogId == id);
             if (item is null) return 0;
             
-            item.BlogId = requestModel.BlogId;
             item.BlogTitle = requestModel.BlogTitle;
             item.BlogAuthor = requestModel.BlogAuthor;
             item.BlogContent = requestModel.BlogContent;
