@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Newtonsoft.Json;
 
-namespace DotNetTrainingBatch4.RestApiWithNLayer.Features.LatHtaukBayDin
+namespace TYDotNetCore.RestApiWithNLayer.Features.LatHtaukBayDin
 {
     [Route("api/[controller]")]
     [ApiController]

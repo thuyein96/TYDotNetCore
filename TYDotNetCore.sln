@@ -21,7 +21,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TYDotNetCore.ConsoleAppHttp
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TYDotNetCore.ConsoleAppHttpClientExample", "TYDotNetCore.ConsoleAppHttpClientExample\TYDotNetCore.ConsoleAppHttpClientExample.csproj", "{7D254D42-D29E-4978-A7F3-69886755B89F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TYDotNetCore.ConsoleAppRestClientExample", "TYDotNetCore.ConsoleAppRestClientExample\TYDotNetCore.ConsoleAppRestClientExample.csproj", "{07B99850-91A7-4D7C-9BD7-7B428FF34598}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TYDotNetCore.ConsoleAppRestClientExample", "TYDotNetCore.ConsoleAppRestClientExample\TYDotNetCore.ConsoleAppRestClientExample.csproj", "{07B99850-91A7-4D7C-9BD7-7B428FF34598}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TYDotNetCore.PizzaApi", "TYDotNetCore.PizzaApi\TYDotNetCore.PizzaApi.csproj", "{925E270E-2B26-4239-A46C-0C361DD70AE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TYDotNetCore.ConsoleAppRefitExample", "TYDotNetCore.ConsoleAppRefitExample\TYDotNetCore.ConsoleAppRefitExample.csproj", "{643B305C-12FB-4E3A-98F4-205C4175E88A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TYDotNetCore.WindowFormApp", "TYDotNetCore.WindowFormApp\TYDotNetCore.WindowFormApp.csproj", "{2088DA9D-3033-4C62-9136-A4AEE6A37908}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +63,18 @@ Global
 		{07B99850-91A7-4D7C-9BD7-7B428FF34598}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07B99850-91A7-4D7C-9BD7-7B428FF34598}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07B99850-91A7-4D7C-9BD7-7B428FF34598}.Release|Any CPU.Build.0 = Release|Any CPU
+		{925E270E-2B26-4239-A46C-0C361DD70AE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{925E270E-2B26-4239-A46C-0C361DD70AE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{925E270E-2B26-4239-A46C-0C361DD70AE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{925E270E-2B26-4239-A46C-0C361DD70AE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{643B305C-12FB-4E3A-98F4-205C4175E88A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{643B305C-12FB-4E3A-98F4-205C4175E88A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{643B305C-12FB-4E3A-98F4-205C4175E88A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{643B305C-12FB-4E3A-98F4-205C4175E88A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2088DA9D-3033-4C62-9136-A4AEE6A37908}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2088DA9D-3033-4C62-9136-A4AEE6A37908}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2088DA9D-3033-4C62-9136-A4AEE6A37908}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2088DA9D-3033-4C62-9136-A4AEE6A37908}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
